@@ -71,11 +71,8 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 
 ## TODO
 
-- [ ] Créer tutoriel émulateur :
-  + pour les jeux Game Boy, Game Boy Color, Game Boy Advance, utilisons [Visual Boy Advance](https://fr.wikipedia.org/wiki/VisualBoyAdvance)
-  + sur Ubuntu ou autre distributions Linux, il s'installe rapidement et facilement : `sudo apt get install visualboyadvance` ;
-  + sur Mac OS X et Windows : [cherche sur DuckDuckGo "comment installer visual boy advance sur XXX"](https://duckduckgo.com/?q=comment+installer+visual+boy+advance+sur+XXX&t=canonical) ([Mac OS X](https://duckduckgo.com/?q=comment+installer+visual+boy+advance+sur+Mac+OS+X&t=canonical) et [Windows](https://duckduckgo.com/?q=comment+installer+visual+boy+advance+sur+Windows&t=canonical)).
-- [ ] Créer tutoriel `git` basique ;
+- [x] [Créer tutoriel émulateur](tutoriel_emulateur.md) :
+- [ ] [Créer tutoriel `git` basique](tutoriel_git.md) ;
 - [ ] Créer modèle de template sur ce dépôt ;
 
 - [ ] Créer premier dépôt pour Pokémon version
