@@ -4,7 +4,7 @@
 
 [Sur ce dépôt git](https://github.com/Pokemon-via-GitHub-contre-Covid-2020-fr/Pokemon-via-GitHub-contre-Covid-2020-fr.github.io), [je](https://naereen.github.io/me/) vais créer [ce site web](https://Pokemon-via-GitHub-contre-Covid-2020-fr.github.io/), pour faire la promotion de [ce projet "Pokemon-via-GitHub-contre-Covid-2020-fr"](https://github.com/Pokemon-via-GitHub-contre-Covid-2020-fr/).
 
-<img align="right" width="50%" src="https://raw.githubusercontent.com/Pokemon-via-GitHub-contre-Covid-2020-fr/Pokemon-via-GitHub-contre-Covid-2020-fr.github.io/master/logos/Pokemon_via_GitHub_logo_HD.png?token=AC3QMXYZDFYFETGYRMFJCNC6S5NAK" alt="Logo, Pokemon_via_GitHub_logo_HD.png">
+<img align="right" width="50%" src="Pokemon_via_GitHub_logo_HD.png" alt="Logo, Pokemon_via_GitHub_logo_HD.png">
 
 > Auteur : [Lilian Besson (@Naereen)](https://github.com/Naereen/), inspiré librement par [Twitch plays Pokémon](https://fr.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon).
 
