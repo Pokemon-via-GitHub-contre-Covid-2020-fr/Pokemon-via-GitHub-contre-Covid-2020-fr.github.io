@@ -26,15 +26,60 @@
 
 ## Comment lancer une partie sur un nouveau jeu ?
 
-1. Avoir un consensus disant que le jeu numéro `n` est bien terminé (actuellement, 15 avril 2020, `n=0` c'est bon),
-2. Avoir un consensus décidant le jeu à commencer,
-3. [Me laisser](https://besson.link/) le plaisir de commencer la partie, et la douleur d'installer [un nouveau dépôt sur GitHub]()
+1. Avoir un consensus disant que le jeu numéro `n` est bien terminé, avant de commencer le jeu `n+1` !
+   > Actuellement, le 15 avril 2020, `n=0` va nous laisser commencer sur le premier jeu `n=1`.
+
+2. Avoir un consensus décidant le jeu à commencer, en respectant l'ordre (évidemment, on ne passe à un jeu de la génération `G` que lorsqu'un jeu ed la génération `G-1` a été terminé). act ;
+   > Actuellement, le 15 avril 2020, `G=0` va nous laisser commencer sur la version *Rouge* ou *Bleu* ou *Jaune*.
+
+3. [Me laisser](https://besson.link/) le plaisir de commencer la partie, et la douleur d'installer [un nouveau dépôt sur GitHub](https://github.com/organizations/Pokemon-via-GitHub-contre-Covid-2020-fr/repositories/new) pour le nouveau jeu ;
+
+4. Vérifier que tout marche, que tous les joueurs et toutes les joueuses voulant participer ont mis une étoile sur le nouveau projet, l'ont cloné, ont pu jouer et sauvegarder le fichier ;
+
+5. Se lancer : une joueuse décide de prendre la main, et ensuite s'enchaîne l'algorithme suivant :
+
+   a. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer, 
+   b. Joueur A décide de jouer, écrit un commit disant `"START blabla bla bla ?"`
+   c. Joueur A décide de finir son moment de jouer, 
+   d. Sans anarchie, sans problème, retour dans l'état initial a.
+   e. Si problème, le maître de la ligue chef spirituel
+
 
 ## Comment serons prises les décisions ? (cf. consensus)
 
-1. Si pas important, la joueuse actuelle décide seule,
-2. Si assez important, par sondage ([via FramaDate](https://FramaDate.org/)) à répondre sous 24 heures,
-3. Si trop important, [je](https://besson.link/) déciderai seul, comme tout chef spirituel digne de ce nom !
+Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre des décisions ensemble.
+
+1. Si la décision est vraiment pas important, la joueuse actuelle décide seul-e (comme tout le reste),
+
+2. Si la décision est trop assez important, par sondage, via un nouveau ticket sur le projet correspondant, et des votes :+1: et :-1: à répondre sous 24 heures,
+
+3. Si la décision est trop important, le ou la maître de la ligue Pokémon du jeu `n-1` (actuellement, [@Naereen](https://GitHub.com/Naereen) déciderai seul, comme tout chef spirituel digne de ce nom !
+
+4. Si la décision concerne la gestion technique du projet, [je (Lilian Besson, @Naereen)](https://GitHub.com/Naereen) conserve le pouvoir.
+   > Et ouais, fallait avoir l'idée en premier ! *Remonte ton slibard, Lothard !*
+
+## Mais en fait, pourquoi ?
+
+1. Pour s'amuser, parce que vive les Pokémon ;
+2. Pour s'amuser, parce que vive `git` et les nouvelles technologies ;
+3. Pour rajouter du lien social avec certain-e-s ami-e-s, parce que fuck le confinement et le coronavirus etc ;
+4. Pour s'initier de façon ludique à `git` ;
+5. Par curiosité, pour être capable de répondre tout le reste de ma vie à la question très importante que voici : "combien faut-il de jeune geek en confinement pour finir ensemble Pokémon GGG en collaborant via GitHub" (GGG = version que l'on réussira à terminer) ;
+6. Pour faire des jolies vidéos à la fin de chaque partie, résumant la partie et montrant qui jouait à quel moment.
+
+---
+
+## TODO
+
+- [ ] Créer tutoriel émulateur :
+  + pour les jeux Game Boy, Game Boy Color, Game Boy Advance, utilisons [Visual Boy Advance](https://fr.wikipedia.org/wiki/VisualBoyAdvance)
+  + sur Ubuntu ou autre distributions Linux, il s'installe rapidement et facilement : `sudo apt get install visualboyadvance` ;
+  + sur Mac OS X et Windows : [cherche sur DuckDuckGo "comment installer visual boy advance sur XXX"](https://duckduckgo.com/?q=comment+installer+visual+boy+advance+sur+XXX&t=canonical) ([Mac OS X](https://duckduckgo.com/?q=comment+installer+visual+boy+advance+sur+Mac+OS+X&t=canonical) et [Windows](https://duckduckgo.com/?q=comment+installer+visual+boy+advance+sur+Windows&t=canonical)).
+- [ ] Créer tutoriel `git` basique ;
+- [ ] Créer modèle de template sur ce dépôt ;
+
+- [ ] Créer premier dépôt pour Pokémon version
+  + [ ] Créer modèle de template sur ce dépôt ;
 
 ---
 
