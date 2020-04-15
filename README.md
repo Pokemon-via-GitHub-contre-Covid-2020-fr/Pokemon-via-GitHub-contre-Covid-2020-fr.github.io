@@ -38,11 +38,17 @@
 
 5. Se lancer : une joueuse décide de prendre la main, et ensuite s'enchaîne l'algorithme suivant :
 
-   a. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer, 
-   b. Joueur A décide de jouer, écrit un commit disant `"START blabla bla bla ?"`
-   c. Joueur A décide de finir son moment de jouer, 
+   a. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer ;
+   b. Joueur A décide de jouer, écrit un commit disant `"START blabla bla bla ?"` (via `git commit -m "START blabla bla"`);
+   c. Joueur A décide de finir son moment de jouer :
+      + faire deux captures d'écran, avec le menu ouvert (pour montrer l'équipe actuelle) et fermé (pour montrer le lieu actuel) ;
+      + faire une sauvegarde ;
+      + ajouter tout ça au dépôt (avec `git add save.gb XXX.png XXX_team.png`) ;
+      + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "END"`);
+      + et enfin synchroniser avec la version maître sur GitHub (avec `git push`) !
+      + Attention : maximum 1 heure de temps réel (heure de Paris) entre un commit `"START"` et un commit `"END"`.
    d. Sans anarchie, sans problème, retour dans l'état initial a.
-   e. Si problème, le maître de la ligue chef spirituel
+   e. Si problème, le maître de la ligue chef spirituel gère les conflits, à grand *coup d'boule* !
 
 
 ## Comment serons prises les décisions ? (cf. consensus)
