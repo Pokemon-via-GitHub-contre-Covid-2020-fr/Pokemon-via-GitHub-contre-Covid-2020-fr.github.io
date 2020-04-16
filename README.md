@@ -12,6 +12,11 @@
 
 # Foire aux questions
 
+## Actuellement, quel(s) jeu(x) est en cours ?
+
+- **Génération 1** : **Pokémon Jaune** : [cf. ce dépôt](https://github.com/Pokemon-via-GitHub-contre-Covid-2020-fr/Version-Jaune/)
+- Pas de jeu d'autre génération.
+
 ## C'est quoi ce projet bizarre ?
 > *Ecoute, je m'ennuie, je suis en confinement, je suis geek, j'ai des idées, j'ai pas de problème, alors pose pas de question pénible, veux-tu ?*
 
