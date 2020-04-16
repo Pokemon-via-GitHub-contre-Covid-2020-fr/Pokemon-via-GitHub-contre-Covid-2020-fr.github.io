@@ -90,7 +90,7 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 
 2. Si la décision est trop assez important, par sondage, via un nouveau ticket sur le projet correspondant, et des votes :+1: et :-1: à répondre sous 24 heures,
 
-3. Si la décision est trop important, le ou la maître de la ligue Pokémon du jeu `n-1` (actuellement, [@Naereen](https://GitHub.com/Naereen) déciderai seul, comme tout chef spirituel digne de ce nom !
+3. Si la décision est trop important, le ou la maître de la ligue Pokémon du jeu `n-1` (actuellement, [@Naereen](https://GitHub.com/Naereen)) déciderai seul, comme tout chef spirituel digne de ce nom !
 
 4. Si la décision concerne la gestion technique du projet, [je (Lilian Besson, @Naereen)](https://GitHub.com/Naereen) conserve le pouvoir.
    > Et ouais, fallait avoir l'idée en premier ! *Remonte ton slibard, Lothard !*
