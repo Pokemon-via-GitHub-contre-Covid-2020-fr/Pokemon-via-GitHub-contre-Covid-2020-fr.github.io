@@ -47,7 +47,7 @@ Il faut suivre les étapes suivantes :
 2. Mettre une étoile [au projet maître](https://github.com/Pokemon-via-GitHub-contre-Covid-2020-fr/Pokemon-via-GitHub-contre-Covid-2020-fr.github.io) ;
 3. Cloner le dépot git hébergé [sur ce GitHub](https://github.com/Pokemon-via-GitHub-contre-Covid-2020-fr) pour le jeu actuel ;
 4. Ajouter votre nom au fichier `whois.md` de ce projet ;
-5. Et quand vous voulez commencer à jouer, attendez qu'un commit de fin de session de jeu apparaisse (cela signifie qu'aucune autre joueuse n'est en train de jouer), puis créer votre commit de début de session de jeu (cf. ci dessous).
+5. Et quand vous voulez commencer à jouer, attendez qu'un commit de fin de session de jeu apparaisse (cela signifie qu'aucun-e autre joueur-se n'est en train de jouer), puis créer votre commit de début de session de jeu (cf. ci dessous).
 
 ---
 
@@ -82,17 +82,17 @@ Il faut suivre les étapes suivantes :
 > Il sera important de respecter cet algorithme, parce que j'utiliserai l'historique `git` des commits `START` et `END` pour savoir qui a joué et quand, et qui a capturé tel Pokémon.
 
 
-## Comment serons prises les décisions ? (cf. consensus)
+## Comment seront prises les décisions ? (cf. consensus)
 
 Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre des décisions ensemble.
 
-1. Si la décision est vraiment pas important, la joueuse actuelle décide seul-e (comme tout le reste),
+1. Si la décision n'est vraiment pas importante, la joueuse actuelle décide seule (comme tout le reste),
 
-2. Si la décision est trop assez important, par sondage, via un nouveau ticket sur le projet correspondant, et des votes :+1: et :-1: à répondre sous 24 heures,
+2. Si la décision est assez importante, elle sera arbitrée par sondage. Les sondages seront des tickets (des "issues") sur le projet correspondant, et des votes 👍 et 👎 (à répondre sous 24 heures),
 
-3. Si la décision est trop important, le ou la maître de la ligue Pokémon du jeu `n-1` (actuellement, [@Naereen](https://GitHub.com/Naereen)) déciderai seul, comme tout chef spirituel digne de ce nom !
+3. Si la décision est trop importante, le ou la maître de la ligue Pokémon du jeu `n-1` (actuellement, [@Naereen](https://GitHub.com/Naereen)) déciderai seul, comme tout chef spirituel digne de ce nom !
 
-4. Si la décision concerne la gestion technique du projet, [je (Lilian Besson, @Naereen)](https://GitHub.com/Naereen) conserve le pouvoir.
+4. Si la décision concerne les parties les plus techniques du projet, [je (Lilian Besson, @Naereen)](https://GitHub.com/Naereen) conserve le pouvoir (c'est moi le chef !).
    > Et ouais, fallait avoir l'idée en premier ! *Remonte ton slibard, Lothard !*
 
 ## Mais en fait, pourquoi ?
