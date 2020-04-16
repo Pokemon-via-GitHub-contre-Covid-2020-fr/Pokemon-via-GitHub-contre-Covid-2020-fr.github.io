@@ -18,12 +18,12 @@
 - Pas de jeu d'autre génération.
 
 ## C'est quoi ce projet bizarre ?
-> *Ecoute, je m'ennuie, je suis en confinement, je suis geek, j'ai des idées, j'ai pas de problème, alors pose pas de question pénible, veux-tu ?*
+> *Ecoute, je m'ennuie, je suis en confinement, je suis geek, j'ai des idées, j'ai pas de problèmes, alors pose pas de questions pénibles, veux-tu ?*
 
 - Si tu es ici, c'est que tu es intéressé-e, chouette !
 - Bienvenue dans le monde des Pokémons, devenus hyper geeks en 2020 et boostés aux OGM que sont les nouvelles technologies comme celles sur [GitHub](https://GitHub.com).
 - Dans ce projet, tu vas jouer avec d'autres de mes ami-e-s à des jeux Pokémon (d'abord *Bleu* ou *Rouge*) sur ton ordinateur, gratuitement, en utilisant un émulateur et une copie numérique du jeu de 1998 (une "ROM").
-  > Au lieu d'utiliser une vieille console trouvée dans le grenier, tu pourras installer [un émulateur](tutoriel_emulateur.md) (comme Visual Boy Advance, liens à venir), télécharger la ROM du jeu Pokémon actuellement joué, [installer git](https://guides.github.com/activities/hello-world/) sur ton ordinateur, et télécharger la version actuelle du fichier de sauvegarde du jeu en cours.
+  > Au lieu d'utiliser une vieille console trouvée dans le grenier, tu pourras installer [un émulateur](tutoriel_emulateur.md) (comme Visual Boy Advance, liens à venir), télécharger la ROM du jeu Pokémon actuellement jouée, [installer git](https://guides.github.com/activities/hello-world/) sur ton ordinateur, et télécharger la version actuelle du fichier de sauvegarde du jeu en cours.
 
 - Nous allons jouer toutes et tous ensemble, chacun notre tour, *sans anarchie*, le plus vite, le plus élégament possible. Ca va être super marrant !
 - Nous allons utiliser des technologies modernes (utilisées depuis 20 ans, par des millions de développeurs de par le monde), pour synchroniser et échanger le fichier de sauvegarde.
