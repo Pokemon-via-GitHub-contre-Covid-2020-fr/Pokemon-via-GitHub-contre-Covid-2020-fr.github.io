@@ -21,7 +21,7 @@
 > *Ecoute, je m'ennuie, je suis en confinement, je suis geek, j'ai des idées, j'ai pas de problème, alors pose pas de question pénible, veux-tu ?*
 
 - Si tu es ici, c'est que tu es intéressé-e, chouette !
-- Bienvenue dans le monde des Pokémon, devenus hyper geek en 2020 et boostés aux OGM que sont les nouvelles technologies comme celles sur [GitHub](https://GitHub.com).
+- Bienvenue dans le monde des Pokémons, devenus hyper geeks en 2020 et boostés aux OGM que sont les nouvelles technologies comme celles sur [GitHub](https://GitHub.com).
 - Dans ce projet, tu vas jouer avec d'autres de mes ami-e-s à des jeux Pokémon (d'abord *Bleu* ou *Rouge*) sur ton ordinateur, gratuitement, en utilisant un émulateur et une copie numérique du jeu de 1998 (une "ROM").
   > Au lieu d'utiliser une vieille console trouvée dans le grenier, tu pourras installer [un émulateur](tutoriel_emulateur.md) (comme Visual Boy Advance, liens à venir), télécharger la ROM du jeu Pokémon actuellement joué, [installer git](https://guides.github.com/activities/hello-world/) sur ton ordinateur, et télécharger la version actuelle du fichier de sauvegarde du jeu en cours.
 
@@ -56,7 +56,7 @@ Il faut suivre les étapes suivantes :
 1. Avoir un consensus disant que le jeu numéro `n` est bien terminé, avant de commencer le jeu `n+1` !
    > Actuellement, le 15 avril 2020, `n=0` va nous laisser commencer sur le premier jeu `n=1`.
 
-2. Avoir un consensus décidant le jeu à commencer, en respectant l'ordre (évidemment, on ne passe à un jeu de la génération `G` que lorsqu'un jeu ed la génération `G-1` a été terminé). act ;
+2. Avoir un consensus décidant le jeu à commencer, en respectant l'ordre (évidemment, on ne passe à un jeu de la génération `G` que lorsqu'un jeu ed la génération `G-1` a été terminé) ;
    > Actuellement, le 15 avril 2020, `G=0` va nous laisser commencer sur la version *Rouge* ou *Bleu* ou *Jaune*.
 
 3. [Me laisser](https://besson.link/) le plaisir de commencer la partie, et la douleur d'installer [un nouveau dépôt sur GitHub](https://github.com/organizations/Pokemon-via-GitHub-contre-Covid-2020-fr/repositories/new) pour le nouveau jeu ;
@@ -118,11 +118,10 @@ Regardez [le fichier](whois.md), qui fait le lien entre noms d'utilisateurs sur 
 
 - [x] [Créer tutoriel émulateur](tutoriel_emulateur.md) :
 - [x] Ajouter ici le lien vers le fichier [whois](whois.md) ;
+- [x] Créer premier dépôt pour Pokémon version Rouge ou Bleu ou Jaune (Game Boy) :
 
 - [ ] [Créer tutoriel `git` basique](tutoriel_git.md) ;
 - [ ] Créer modèle de template sur ce dépôt ;
-- [ ] Créer premier dépôt pour Pokémon version Rouge ou Bleu ou Jaune (Game Boy) :
-  + [ ] Créer modèle de template sur ce dépôt ;
 
 ---
 
