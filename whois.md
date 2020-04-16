@@ -1,6 +1,7 @@
 # Participant-e-s
 - [Naereen](https://GitHub.com/Naereen) = [Lilian Besson](https://besson.link/)
 - [eleurent](https://GitHub.com/eleurent) = [Édouard Leurent](http://edouardleurent.com)
+- [estey](https://GitHub.com/estey) = Esteban Selva
 
 # Probables participant-e-s
 
@@ -9,5 +10,5 @@
 > 3. Merci d'avance ! Et bienvenue dans le monde des *Pokémons sur GitHub* !
 
 - ? = Xuedong Shang
-- ? = Esteban Selva-Baldit
+- ? = Édouard Leurent
 - ? = Rémi Bonnefoi
