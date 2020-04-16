@@ -1,6 +1,7 @@
 # Participant-e-s
 - [Naereen](https://GitHub.com/Naereen) = [Lilian Besson](https://besson.link/)
 - [eleurent](https://GitHub.com/eleurent) = [Édouard Leurent](http://edouardleurent.com)
+- [estey](https://GitHub.com/estey) = Esteban Selva
 
 # Probables participant-e-s
 
@@ -10,5 +11,4 @@
 
 - ? = Xuedong Shang
 - ? = Édouard Leurent
-- estey = Esteban Selva-Baldit
 - ? = Rémi Bonnefoi
