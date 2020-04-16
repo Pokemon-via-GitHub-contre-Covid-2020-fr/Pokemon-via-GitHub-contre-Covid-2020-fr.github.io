@@ -73,15 +73,20 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 5. Par curiosité, pour être capable de répondre tout le reste de ma vie à la question très importante que voici : "combien faut-il de jeune geek en confinement pour finir ensemble Pokémon GGG en collaborant via GitHub" (GGG = version que l'on réussira à terminer) ;
 6. Pour faire des jolies vidéos à la fin de chaque partie, résumant la partie et montrant qui jouait à quel moment.
 
+## Je comprends rien à l'historique de commits, *qui est qui ?*
+
+Regardez [le fichier](whois.md), qui fait le lien entre noms d'utilisateurs sur GitHub (e.g., [Naereen](https://GitHub.com/Naereen) pour moi), et noms des gens "en vrai".
+
 ---
 
 ## TODO
 
 - [x] [Créer tutoriel émulateur](tutoriel_emulateur.md) :
+- [x] Ajouter ici le lien vers le fichier [whois](whois.md) ;
+
 - [ ] [Créer tutoriel `git` basique](tutoriel_git.md) ;
 - [ ] Créer modèle de template sur ce dépôt ;
-
-- [ ] Créer premier dépôt pour Pokémon version
+- [ ] Créer premier dépôt pour Pokémon version Rouge ou Bleu ou Jaune (Game Boy) :
   + [ ] Créer modèle de template sur ce dépôt ;
 
 ---
