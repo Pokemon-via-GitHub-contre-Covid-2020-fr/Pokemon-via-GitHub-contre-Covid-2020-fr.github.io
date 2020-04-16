@@ -30,6 +30,8 @@
 
 > Tu dois apprendre à utiliser Git, Luke !
 
+Je veux faire de mon mieux pour vous aider à apprendre à utiliser git !
+
 
 ## Comment lancer une partie sur un nouveau jeu ?
 
@@ -70,6 +72,8 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 
 4. Si la décision concerne la gestion technique du projet, [je (Lilian Besson, @Naereen)](https://GitHub.com/Naereen) conserve le pouvoir.
    > Et ouais, fallait avoir l'idée en premier ! *Remonte ton slibard, Lothard !*
+
+![That's not fair!](https://media.giphy.com/media/3owzVZ1XWDzHoWN7zi/giphy.gif)
 
 ## Mais en fait, pourquoi ?
 
