@@ -17,23 +17,36 @@
 
 - Si tu es ici, c'est que tu es intéressé-e, chouette !
 - Bienvenue dans le monde des Pokémon, devenus hyper geek en 2020 et boostés aux OGM que sont les nouvelles technologies comme celles sur [GitHub](https://GitHub.com).
-- Dans ce projet, tu vas jouer avec d'autres de mes ami-e-s à des jeux Pokémon (d'abord *Bleu* ou *Rouge*) sur ton ordinateur, gratuitement, en utilisant un émulateur et une copie numérique du jeu de 1998 (une "rom").
-  > Au lieu d'utiliser une vieille console trouvée dans le grenier, tu pourras installer [un émulateur](tutoriel_emulateur.md) (comme Visual Boy Advance, liens à venir), télécharger la rom du jeu Pokémon actuellement joué, [installer git](https://guides.github.com/activities/hello-world/) sur ton ordinateur, et télécharger la version actuelle du fichier de sauvegarde du jeu en cours.
+- Dans ce projet, tu vas jouer avec d'autres de mes ami-e-s à des jeux Pokémon (d'abord *Bleu* ou *Rouge*) sur ton ordinateur, gratuitement, en utilisant un émulateur et une copie numérique du jeu de 1998 (une "ROM").
+  > Au lieu d'utiliser une vieille console trouvée dans le grenier, tu pourras installer [un émulateur](tutoriel_emulateur.md) (comme Visual Boy Advance, liens à venir), télécharger la ROM du jeu Pokémon actuellement joué, [installer git](https://guides.github.com/activities/hello-world/) sur ton ordinateur, et télécharger la version actuelle du fichier de sauvegarde du jeu en cours.
 
-- Nous allons joueur tous ensemble, chacun notre tour, sans anarchie, le plus vite, le plus élégament possible. Ca va être super marrant !
-- Nous allons utiliser des technologies modernes, utilisées par des millions de développeurs de par le monde, pour synchroniser et échanger le fichier de sauvegarde.
+- Nous allons jouer toutes et tous ensemble, chacun notre tour, *sans anarchie*, le plus vite, le plus élégament possible. Ca va être super marrant !
+- Nous allons utiliser des technologies modernes (utilisées depuis 20 ans, par des millions de développeurs de par le monde), pour synchroniser et échanger le fichier de sauvegarde.
   > Au lieu d'utiliser des mails, ou un "dossier partagé" comme avec Dropbox ou Google Drive, tu vas apprendre avec nous à utiliser `git` pour gérer les versions d'un fichier, pour collaborer à plusieurs sur un projet à l'ère du numérique.
 
-## Attends, il faut que j'apprenne git et GitHub pour jouer avec vous ? C'est trop chiant, ciao !
+## Attends, il faut que *j'apprenne* git et GitHub *pour jouer* avec vous ? C'est trop chiant, ciao !
 
 ![You must learn the way of the Force](https://media.giphy.com/media/3o84sM9j9UyZUjAsGk/giphy.gif)
 
-> Tu dois apprendre à utiliser Git, Luke !
+> Mais non, c'est pas chiant ! Tu dois apprendre à utiliser Git, et la force sera avec toi !
 
 Je veux faire de mon mieux pour vous aider à apprendre à utiliser git !
 
+---
 
-## Comment lancer une partie sur un nouveau jeu ?
+## Comment rattraper une partie en cours sur un jeu ?
+
+Il faut suivre les étapes suivantes :
+
+1. Télécharger la ROM du jeu, vérifiez que c'est la bonne ROM (avec la somme de contrôle `md5` donnée) ;
+2. Mettre une étoile [au projet maître](https://github.com/Pokemon-via-GitHub-contre-Covid-2020-fr/Pokemon-via-GitHub-contre-Covid-2020-fr.github.io) ;
+3. Cloner le dépot git hébergé [sur ce GitHub](https://github.com/Pokemon-via-GitHub-contre-Covid-2020-fr) pour le jeu actuel ;
+4. Ajouter votre nom au fichier `whois.md` de ce projet ;
+5. Et quand vous voulez commencer à jouer, attendez qu'un commit de fin de session de jeu apparaisse (cela signifie qu'aucune autre joueuse n'est en train de jouer), puis créer votre commit de début de session de jeu (cf. ci dessous).
+
+---
+
+## Comment lancer une partie sur un *nouveau* jeu ?
 
 1. Avoir un consensus disant que le jeu numéro `n` est bien terminé, avant de commencer le jeu `n+1` !
    > Actuellement, le 15 avril 2020, `n=0` va nous laisser commencer sur le premier jeu `n=1`.
