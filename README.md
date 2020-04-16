@@ -24,6 +24,13 @@
 - Nous allons utiliser des technologies modernes, utilisées par des millions de développeurs de par le monde, pour synchroniser et échanger le fichier de sauvegarde.
   > Au lieu d'utiliser des mails, ou un "dossier partagé" comme avec Dropbox ou Google Drive, tu vas apprendre avec nous à utiliser `git` pour gérer les versions d'un fichier, pour collaborer à plusieurs sur un projet à l'ère du numérique.
 
+## Attends, il faut que j'apprenne git et GitHub pour jouer avec vous ? C'est trop chiant, ciao !
+
+![You must learn the way of the Force](https://media.giphy.com/media/3o84sM9j9UyZUjAsGk/giphy.gif)
+
+> Tu dois apprendre à utiliser Git, Luke !
+
+
 ## Comment lancer une partie sur un nouveau jeu ?
 
 1. Avoir un consensus disant que le jeu numéro `n` est bien terminé, avant de commencer le jeu `n+1` !
@@ -66,6 +73,8 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 
 ## Mais en fait, pourquoi ?
 
+![Wait, what?](https://media.giphy.com/media/xTiIzximlL8k0qWGmQ/giphy.gif)
+
 1. Pour s'amuser, parce que vive les Pokémon ;
 2. Pour s'amuser, parce que vive `git` et les nouvelles technologies ;
 3. Pour rajouter du lien social avec certain-e-s ami-e-s, parce que fuck le confinement et le coronavirus etc ;
@@ -74,6 +83,8 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 6. Pour faire des jolies vidéos à la fin de chaque partie, résumant la partie et montrant qui jouait à quel moment.
 
 ## Je comprends rien à l'historique de commits, *qui est qui ?*
+
+![Han Solo](https://media.giphy.com/media/3owzVZ1XWDzHoWN7zi/giphy.gif)
 
 Regardez [le fichier](whois.md), qui fait le lien entre noms d'utilisateurs sur GitHub (e.g., [Naereen](https://GitHub.com/Naereen) pour moi), et noms des gens "en vrai".
 
