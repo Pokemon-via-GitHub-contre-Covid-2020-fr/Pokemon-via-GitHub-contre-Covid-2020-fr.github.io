@@ -62,17 +62,19 @@ Il faut suivre les étapes suivantes :
 
 ### Algorithme pour jouer
 1. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer ;
-2. Joueur A décide de jouer, écrit un commit disant `"START blabla bla bla ?"` (via `git commit -m "START blabla bla"`);
+2. Joueur A décide de jouer, et écrit un commit commençant par `"START"`, par exemple `"START je vais jouer max 40 minutes, essayer de battre Pierre"` (via `git commit -m "START blabla bla"`);
 3. Joueur A décide de finir son moment de jouer :
    + faire deux captures d'écran, avec le menu ouvert (pour montrer l'équipe actuelle) et fermé (pour montrer le lieu actuel) ;
    + faire une sauvegarde ;
    + ajouter tout ça au dépôt (avec `git add save.gb XXX.png XXX_team.png`) ;
-   + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "END"`);
+   + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "END j'ai battu Pierre et mon équipe est de niveau 8"`);
    + et enfin synchroniser avec la version maître sur GitHub (avec `git push`) !
    + Attention : maximum 1 heure de temps réel (heure de Paris) entre un commit `"START"` et un commit `"END"`.
 
-4. Sans anarchie, sans problème, retour dans l'état initial a.
+4. Sans anarchie, sans problème, retour dans l'état initial 1.
 5. Si problème, le maître de la ligue chef spirituel gère les conflits, à grand *coup d'boule* !
+
+> Il sera important de respecter cet algorithme, parce que j'utiliserai l'historique `git` des commits `START` et `END` pour savoir qui a joué et quand, et qui a capturé tel Pokémon.
 
 
 ## Comment serons prises les décisions ? (cf. consensus)
