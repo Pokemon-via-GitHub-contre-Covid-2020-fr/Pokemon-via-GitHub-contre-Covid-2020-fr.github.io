@@ -1,6 +1,6 @@
 # Participant-e-s
 - [Naereen](https://GitHub.com/Naereen) = [Lilian Besson](https://besson.link/)
-
+- [eleurent](https://GitHub.com/eleurent) = [Édouard Leurent](http://edouardleurent.com)
 
 # Probables participant-e-s
 

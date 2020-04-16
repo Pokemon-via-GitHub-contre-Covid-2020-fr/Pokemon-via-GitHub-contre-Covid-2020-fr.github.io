@@ -24,6 +24,15 @@
 - Nous allons utiliser des technologies modernes, utilisées par des millions de développeurs de par le monde, pour synchroniser et échanger le fichier de sauvegarde.
   > Au lieu d'utiliser des mails, ou un "dossier partagé" comme avec Dropbox ou Google Drive, tu vas apprendre avec nous à utiliser `git` pour gérer les versions d'un fichier, pour collaborer à plusieurs sur un projet à l'ère du numérique.
 
+## Attends, il faut que j'apprenne git et GitHub pour jouer avec vous ? C'est trop chiant, ciao !
+
+![You must learn the way of the Force](https://media.giphy.com/media/3o84sM9j9UyZUjAsGk/giphy.gif)
+
+> Tu dois apprendre à utiliser Git, Luke !
+
+Je veux faire de mon mieux pour vous aider à apprendre à utiliser git !
+
+
 ## Comment lancer une partie sur un nouveau jeu ?
 
 1. Avoir un consensus disant que le jeu numéro `n` est bien terminé, avant de commencer le jeu `n+1` !
@@ -38,17 +47,19 @@
 
 5. Se lancer : une joueuse décide de prendre la main, et ensuite s'enchaîne l'algorithme suivant :
 
-   a. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer ;
-   b. Joueur A décide de jouer, écrit un commit disant `"START blabla bla bla ?"` (via `git commit -m "START blabla bla"`);
-   c. Joueur A décide de finir son moment de jouer :
-      + faire deux captures d'écran, avec le menu ouvert (pour montrer l'équipe actuelle) et fermé (pour montrer le lieu actuel) ;
-      + faire une sauvegarde ;
-      + ajouter tout ça au dépôt (avec `git add save.gb XXX.png XXX_team.png`) ;
-      + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "END"`);
-      + et enfin synchroniser avec la version maître sur GitHub (avec `git push`) !
-      + Attention : maximum 1 heure de temps réel (heure de Paris) entre un commit `"START"` et un commit `"END"`.
-   d. Sans anarchie, sans problème, retour dans l'état initial a.
-   e. Si problème, le maître de la ligue chef spirituel gère les conflits, à grand *coup d'boule* !
+### Algorithme pour jouer
+1. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer ;
+2. Joueur A décide de jouer, écrit un commit disant `"START blabla bla bla ?"` (via `git commit -m "START blabla bla"`);
+3. Joueur A décide de finir son moment de jouer :
+   + faire deux captures d'écran, avec le menu ouvert (pour montrer l'équipe actuelle) et fermé (pour montrer le lieu actuel) ;
+   + faire une sauvegarde ;
+   + ajouter tout ça au dépôt (avec `git add save.gb XXX.png XXX_team.png`) ;
+   + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "END"`);
+   + et enfin synchroniser avec la version maître sur GitHub (avec `git push`) !
+   + Attention : maximum 1 heure de temps réel (heure de Paris) entre un commit `"START"` et un commit `"END"`.
+
+4. Sans anarchie, sans problème, retour dans l'état initial a.
+5. Si problème, le maître de la ligue chef spirituel gère les conflits, à grand *coup d'boule* !
 
 
 ## Comment serons prises les décisions ? (cf. consensus)
@@ -64,7 +75,11 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 4. Si la décision concerne la gestion technique du projet, [je (Lilian Besson, @Naereen)](https://GitHub.com/Naereen) conserve le pouvoir.
    > Et ouais, fallait avoir l'idée en premier ! *Remonte ton slibard, Lothard !*
 
+![That's not fair!](https://media.giphy.com/media/3owzVZ1XWDzHoWN7zi/giphy.gif)
+
 ## Mais en fait, pourquoi ?
+
+![Wait, what?](https://media.giphy.com/media/xTiIzximlL8k0qWGmQ/giphy.gif)
 
 1. Pour s'amuser, parce que vive les Pokémon ;
 2. Pour s'amuser, parce que vive `git` et les nouvelles technologies ;
@@ -74,6 +89,8 @@ Comme tout groupe de plus de un individu, assez vite, nous allons devoir prendre
 6. Pour faire des jolies vidéos à la fin de chaque partie, résumant la partie et montrant qui jouait à quel moment.
 
 ## Je comprends rien à l'historique de commits, *qui est qui ?*
+
+![Han Solo](https://media.giphy.com/media/3owzVZ1XWDzHoWN7zi/giphy.gif)
 
 Regardez [le fichier](whois.md), qui fait le lien entre noms d'utilisateurs sur GitHub (e.g., [Naereen](https://GitHub.com/Naereen) pour moi), et noms des gens "en vrai".
 
