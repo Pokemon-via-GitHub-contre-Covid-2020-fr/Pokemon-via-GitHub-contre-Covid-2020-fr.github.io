@@ -54,10 +54,10 @@ Il faut suivre les étapes suivantes :
 ## Comment lancer une partie sur un *nouveau* jeu ?
 
 1. Avoir un consensus disant que le jeu numéro `n` est bien terminé, avant de commencer le jeu `n+1` !
-   > Actuellement, le 15 avril 2020, `n=0` va nous laisser commencer sur le premier jeu `n=1`.
+   > Actuellement, le 20 mai 2020, `n=1` va nous laisser continuer sur le second jeu `n=2`.
 
 2. Avoir un consensus décidant le jeu à commencer, en respectant l'ordre (évidemment, on ne passe à un jeu de la génération `G` que lorsqu'un jeu ed la génération `G-1` a été terminé) ;
-   > Actuellement, le 15 avril 2020, `G=0` va nous laisser commencer sur la version *Rouge* ou *Bleu* ou *Jaune*.
+   > Actuellement, le 20 mai 2020, `G=1` va nous laisser continuer sur la version *Or* ou *Argent* ou *Cristal*.
 
 3. [Me laisser](https://besson.link/) le plaisir de commencer la partie, et la douleur d'installer [un nouveau dépôt sur GitHub](https://github.com/organizations/Pokemon-via-GitHub-contre-Covid-2020-fr/repositories/new) pour le nouveau jeu ;
 
@@ -69,17 +69,17 @@ Il faut suivre les étapes suivantes :
 1. Au début, dans un état dans lequel aucun joueur n'a décidé d'être en train de jouer ;
 2. Joueur A décide de jouer, et écrit un commit commençant par `"START"`, par exemple `"START je vais jouer max 40 minutes, essayer de battre Pierre"` (via `git commit -m "START blabla bla"`);
 3. Joueur A décide de finir son moment de jouer :
-   + faire deux captures d'écran, avec le menu ouvert (pour montrer l'équipe actuelle) et fermé (pour montrer le lieu actuel) ;
+   + faire plusieurs captures d'écran, avec le menu ouvert (pour montrer l'équipe actuelle, la position sur la carte, le Pokédex, et l'état des badges) et fermé (pour montrer le lieu actuel) ;
    + faire une sauvegarde ;
-   + ajouter tout ça au dépôt (avec `git add save.gb XXX.png XXX_team.png`) ;
-   + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "END j'ai battu Pierre et mon équipe est de niveau 8"`);
+   + ajouter tout ça au dépôt (avec `git add save.gb XXX.png XXX_team.png XXX_pokedex.png XXX_map.png XXX_badge.png `) ;
+   + puis faire un commit expliquant ce qui a été fait durant la session de jeu (via `git commit -m "DONE j'ai battu Pierre et mon équipe est de niveau 8"`);
    + et enfin synchroniser avec la version maître sur GitHub (avec `git push`) !
-   + Attention : maximum 1 heure de temps réel (heure de Paris) entre un commit `"START"` et un commit `"END"`.
+   + Attention : maximum 1 heure de temps réel (heure de Paris) entre un commit `"START"` et un commit `"DONE"`.
 
 4. Sans anarchie, sans problème, retour dans l'état initial 1.
 5. Si problème, le maître de la ligue chef spirituel gère les conflits, à grand *coup d'boule* !
 
-> Il sera important de respecter cet algorithme, parce que j'utiliserai l'historique `git` des commits `START` et `END` pour savoir qui a joué et quand, et qui a capturé tel Pokémon.
+> Il sera important de respecter cet algorithme, parce que j'utiliserai l'historique `git` des commits `START` et `DONE` pour savoir qui a joué et quand, et qui a capturé tel Pokémon.
 
 
 ## Comment seront prises les décisions ? (cf. consensus)
@@ -119,9 +119,8 @@ Regardez [le fichier](whois.md), qui fait le lien entre noms d'utilisateurs sur 
 - [x] [Créer tutoriel émulateur](tutoriel_emulateur.md) :
 - [x] Ajouter ici le lien vers le fichier [whois](whois.md) ;
 - [x] Créer premier dépôt pour Pokémon version Rouge ou Bleu ou Jaune (Game Boy) :
-
-- [ ] [Créer tutoriel `git` basique](tutoriel_git.md) ;
-- [ ] Créer modèle de template sur ce dépôt ;
+- [x] [Créer tutoriel `git` basique](tutoriel_git.md) : [sur mon site personnel](https://besson.link/tutogit.fr.html) ;
+- [x] Créer modèle (template) sur ce dépôt ;
 
 ---
 
